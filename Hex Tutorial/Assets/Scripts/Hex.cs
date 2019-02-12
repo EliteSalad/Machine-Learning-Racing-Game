@@ -5,9 +5,11 @@ public class Hex : MonoBehaviour {
 
     // Our coordinates in the map array
     public bool odd = false;
-    public int rowNumber;
 	public int x;
 	public int y;
+    
+    public enum State {empty, built, elevated};
+    public State state;
 
     GameObject left, right, upperLeft, upperRight, lowerLeft, lowerRight;
 
@@ -15,7 +17,6 @@ public class Hex : MonoBehaviour {
     {
         if (x % 2 == 1)     //x represents the row number in this situation
             odd = true;
-
         else
             odd = false;
         

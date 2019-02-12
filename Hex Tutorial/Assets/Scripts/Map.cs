@@ -5,15 +5,18 @@ public class Map : MonoBehaviour {
 
 	public GameObject hexPrefab;
 
-	// Size of the map in terms of number of hex tiles
-	// This is NOT representative of the amount of 
-	// world space that we're going to take up.
-	// (i.e. our tiles might be more or less than 1 Unity World Unit)
+    //Size of hex hex map (not world space)
+
 	public int width = 64;
 	public int height = 40;
 
 	float xOffset = 0.882f;
 	float zOffset = 0.764f;
+
+    public bool create = false;
+    public bool delete = false;
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -23,8 +26,19 @@ public class Map : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update ()
+    {
+	if (create)
+        {
+            DeleteMap();
+            CreateMap();
+            create = false;
+        }
+    if (delete)
+        {
+            DeleteMap();
+            delete = false;
+        }
 	}
 
     void CreateMap()
@@ -50,15 +64,25 @@ public class Map : MonoBehaviour {
                 // Make sure the hex is aware of its place on the map
                 hex_go.GetComponent<Hex>().x = x;
                 hex_go.GetComponent<Hex>().y = y;
-                hex_go.GetComponent<Hex>().rowNumber = x;
+                
 
                 // For a cleaner hierachy, parent this hex to the map
                 hex_go.transform.SetParent(this.transform);
 
-                // TODO: Quill needs to explain different optimization later...
+                //optimisation
                 hex_go.isStatic = true;
 
             }
         }
+    }
+
+    void DeleteMap()
+    {
+        foreach (Transform child in transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+        
+        //delete all children of Map
     }
 }
