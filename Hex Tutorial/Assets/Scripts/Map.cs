@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using System;
 
 public class Map : MonoBehaviour {
 
 	public GameObject hexPrefab;
+    public Text rowText, collumText;
 
     //Size of hex hex map (not world space)
 
-	public int width = 64;
-	public int height = 40;
+	public int width = 10;
+	public int height = 10;
 
 	float xOffset = 0.882f;
 	float zOffset = 0.764f;
@@ -28,7 +31,20 @@ public class Map : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-	if (create)
+        //width = rowText.text;
+        //height = collumText.text;
+
+        if(int.TryParse(rowText.text, out width))
+        //{ }
+        //else
+        //{ ErrorMessage(); }
+
+        if(int.TryParse(collumText.text, out height))
+        //{}
+        //else
+        //{ ErrorMessage(); }
+
+        if (create)
         {
             DeleteMap();
             CreateMap();
@@ -41,8 +57,10 @@ public class Map : MonoBehaviour {
         }
 	}
 
-    void CreateMap()
+    public void CreateMap()
     {
+        DeleteMap();
+
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
@@ -76,7 +94,7 @@ public class Map : MonoBehaviour {
         }
     }
 
-    void DeleteMap()
+    public void DeleteMap()
     {
         foreach (Transform child in transform)
         {
@@ -84,5 +102,10 @@ public class Map : MonoBehaviour {
         }
         
         //delete all children of Map
+    }
+
+    void ErrorMessage()
+    {
+
     }
 }
