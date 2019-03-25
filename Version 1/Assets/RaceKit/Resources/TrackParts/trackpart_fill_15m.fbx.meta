@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: e10e969d23d054044b6cf96482a2b5a3
+timeCreated: 1492641072
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: begin
+    100002: end_0
+    100004: end_1
+    100006: end_2
+    100008: fill_0
+    100010: fill_1
+    100012: fill_2
+    100014: //RootNode
+    100016: fence_con_0
+    100018: fence_con_1
+    100020: fence_con_2
+    100022: fence_concrete_0
+    100024: fence_concrete_1
+    100026: fence_concrete_2
+    100028: fence_metal_0
+    100030: fence_metal_1
+    100032: fence_metal_2
+    400000: begin
+    400002: end_0
+    400004: end_1
+    400006: end_2
+    400008: fill_0
+    400010: fill_1
+    400012: fill_2
+    400014: //RootNode
+    400016: fence_con_0
+    400018: fence_con_1
+    400020: fence_con_2
+    400022: fence_concrete_0
+    400024: fence_concrete_1
+    400026: fence_concrete_2
+    400028: fence_metal_0
+    400030: fence_metal_1
+    400032: fence_metal_2
+    2300000: fill_0
+    2300002: fill_1
+    2300004: fill_2
+    2300006: fence_con_0
+    2300008: fence_con_1
+    2300010: fence_con_2
+    2300012: fence_concrete_0
+    2300014: fence_concrete_1
+    2300016: fence_concrete_2
+    2300018: fence_metal_0
+    2300020: fence_metal_1
+    2300022: fence_metal_2
+    3300000: fill_0
+    3300002: fill_1
+    3300004: fill_2
+    3300006: fence_con_0
+    3300008: fence_con_1
+    3300010: fence_con_2
+    3300012: fence_concrete_0
+    3300014: fence_concrete_1
+    3300016: fence_concrete_2
+    3300018: fence_metal_0
+    3300020: fence_metal_1
+    3300022: fence_metal_2
+    4300000: fill_1
+    4300002: fill_2
+    4300004: fill_0
+    4300006: fence_con_1
+    4300008: fence_con_0
+    4300010: fence_con_2
+    4300012: fence_concrete_1
+    4300014: fence_concrete_0
+    4300016: fence_concrete_2
+    4300018: fence_metal_2
+    4300020: fence_metal_1
+    4300022: fence_metal_0
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

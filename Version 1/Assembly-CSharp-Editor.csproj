@@ -85,6 +85,7 @@
      <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+     <Compile Include="Assets\RaceKit\Editor\RaceKitWindow.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

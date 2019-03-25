@@ -1,0 +1,106 @@
+fileFormatVersion: 2
+guid: 01429cb854a69164cb13bc5e1427548e
+timeCreated: 1492641071
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: begin_left
+    100002: begin_right
+    100004: end
+    100006: //RootNode
+    100008: fence_con
+    100010: fence_concrete
+    100012: fence_concrete.003
+    100014: fence_metal
+    400000: begin_left
+    400002: begin_right
+    400004: end
+    400006: //RootNode
+    400008: fence_con
+    400010: fence_concrete
+    400012: fence_concrete.003
+    400014: fence_metal
+    2300000: //RootNode
+    2300002: fence_con
+    2300004: fence_concrete
+    2300006: fence_concrete.003
+    2300008: fence_metal
+    3300000: //RootNode
+    3300002: fence_con
+    3300004: fence_concrete
+    3300006: fence_concrete.003
+    3300008: fence_metal
+    4300000: trackpart_union_15m
+    4300002: fence_con
+    4300004: fence_concrete
+    4300006: fence_concrete.003
+    4300008: fence_metal
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

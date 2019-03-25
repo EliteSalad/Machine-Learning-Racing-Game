@@ -10,7 +10,7 @@ public class CamController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        camToggler = CameraMode.Track;
+        //camToggler = CameraMode.Track;
 	}
 	
 	// Update is called once per frame
